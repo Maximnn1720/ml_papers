@@ -1,0 +1,17 @@
+micronaut:
+  application:
+    name: multiTechnologyProject
+  server:
+    port: 1234
+netty:
+  default:
+    allocator:
+      max-order: 3
+
+db:
+  user-name: user
+  password: password
+  url: jdbc:mysql://localhost:3306/ml_papers_db?useSSL=false&serverTimezone=UTC
+
+logger:
+  path: log.txt
